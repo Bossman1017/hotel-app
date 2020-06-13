@@ -1,0 +1,17 @@
+// Function Declaration
+
+vat whatDoYouDo= function(job, firstname) {
+    switch(job) {
+        case 'teacher':
+            return firstname + 'teaches kids how to code';
+        case'driver':
+            return firstName + ' drives a cab in Lisbon .'
+        case 'designer':
+            return firstName + ' designs beautiful websites';
+        default: firstName + ' does something else';
+    }
+}
+
+console.log(whatDoYouDo('teacher', 'John'));
+console.log(whatDoYouDo('teacher', 'Jane'));
+console.log(whatDoYouDo('teacher', 'Mark'));
